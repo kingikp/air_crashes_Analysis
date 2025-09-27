@@ -23,7 +23,7 @@ st.title("✈ Air Crashes Analysis Dashboard")
 st.sidebar.header("🔎 Filters")
 
 
-st.sidebar.header("🔎 Filters")
+
 
 filters = {
     "Year": df["Year"].dropna().unique(),
